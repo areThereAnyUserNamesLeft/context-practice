@@ -1,7 +1,7 @@
 # Context Practice
 
-I've been using contexts in go for about 12 months now and I'm only now realising how they should be used for cancelations.
+I've been passing around contexts in go for about 12 months now and I'm only just realising how they should be used for cancelations and crude identifiers.
 
-Here are some excersises I've done to get my head around it
+These are some excersises I've done to help get my head around it.
 
 
