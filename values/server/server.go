@@ -8,7 +8,7 @@ import (
 )
 
 func knockKnock(w http.ResponseWriter, r *http.Request) {
-	r.WithContext(context.WithValue(r.Context(), "joke", "Yes")) //key should not be a stringbut I'm ignoring thaton purpose
+	r.WithContext(context.WithValue(r.Context(), "joke", "Yes")) //key should not be a string but I'm ignoring thaton purpose
 	fmt.Fprint(w, "Knock Knock - (hint:-type \"/whoIsThere\")")
 }
 
